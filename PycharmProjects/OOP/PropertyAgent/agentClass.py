@@ -8,11 +8,12 @@ from PropertyAgent.houseRentalClass import HouseRental
 
 class Agent(object):
     type_map = {
-        ("house", "rental"):HouseRental,
-        ("apartment", "rental"):ApartmentRental,
-        ("house", "purchase"):HousePurchase,
-        ("apartment","purchase"):ApartmentPurchase
+        ("house", "rental"): HouseRental,
+        ("apartment", "rental"): ApartmentRental,
+        ("house", "purchase"): HousePurchase,
+        ("apartment", "purchase"): ApartmentPurchase
     }
+
     def __init__(self):
         self.property_list = []
 
@@ -22,16 +23,17 @@ class Agent(object):
 
     def add_property(self):
         property_type = get_valid_input(
-            "What type of property? ",
-            ("house", "apartment")
+                "What type of property? ",
+                ("house", "apartment")
         ).lower()
         payment_type = get_valid_input(
-            "What payment type? ",
-            ("purchase", "rental")
+                "What payment type? ",
+                ("purchase", "rental")
         ).lower()
-        PropertyClass = self.type_map[(property_type, payment_type)]
-        init_kwargs = PropertyClass.prompt_init()
-        self.property_list.append(PropertyClass(**init_kwargs))
+        propertyclass = self.type_map[(property_type, payment_type)]
+        init_kwargs = propertyclass.prompt_init()
+        self.property_list.append(propertyclass(**init_kwargs))
+
 
 agent = Agent()
 agent.add_property()

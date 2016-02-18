@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<GraphicsCommands>
+  <Command x="20"                           y="21"                          width="1.0"                          color="black">GoTo</Command>
+</GraphicsCommands>

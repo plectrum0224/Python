@@ -60,68 +60,69 @@
 # m1 = ModelDuck()
 # m1.performFly()
 # m1.performQuack()
-
-class WeaponBehavior(object):
-    def useWeapon(self):
-        pass
-
-
-class SwordBehavior(WeaponBehavior):
-    def useWeapon(self):
-        print("I Use sword as my weapon!!")
-
-
-class KnifeBehavior(WeaponBehavior):
-    def useWeapon(self):
-        print("I Use knife as my weapon!!")
-
-
-class BowAndArrowBehavior(WeaponBehavior):
-    def useWeapon(self):
-        print("I Use bow and arrow as my weapon!!")
-
-
-class AxeBehavior(WeaponBehavior):
-    def useWeapon(self):
-        print("I Use axe as my weapon!!")
-
-
-class Character(object):
-    def __init__(self, weapon):
-        self.weaponBehavior = weapon
-
-    def fight(self):
-        return self.weaponBehavior.useWeapon()
-
-    def setWeapon(self, weaponBehavior):
-        self.weaponBehavior = weaponBehavior
-
-
-class King(Character):
+#==============================================================#武器策略
+class SwordBehavior(object):
     def __init__(self):
-        super(King, self).__init__(BowAndArrowBehavior())
+        self.behaviorCode = "SWORD"
 
+    def __call__(self):
+        return "use the sword"
 
-class Knight(Character):
+class KnifeBehavior(object):
     def __init__(self):
-        super(Knight, self).__init__(SwordBehavior())
+        self.behaviorCode = "KNIFE"
 
-
-class Queen(Character):
+class BowAndArrowBehavior(object):
     def __init__(self):
-        super(Queen, self).__init__(KnifeBehavior())
+        self.behaviorCode = "BOWANDARROW"
 
-
-class Troll(Character):
+class AxeBehavior(object):
     def __init__(self):
-        super(Troll, self).__init__(AxeBehavior())
+        self.behaviorCode = "AXE"
+#==============================================================#人物策略
+class KingFigure(object):
+    def __init__(self):
+        self.figureCode = "KING"
+
+    def __call__(self):
+        return "I am a king"
+
+class QueenFigure(object):
+    def __init__(self):
+        self.figureCode = "QUEEN"
+
+class TrollFigure(object):
+    def __init__(self):
+        self.figureCode = "TROLL"
+
+class KnightFigure(object):
+    def __init__(self):
+        self.figureCode = "KNIGHT"
+#==============================================================#
+class CharacterCreator(object):
+    def __init__(self):
+        self.__weaponImpls = [SwordBehavior(),
+                        KnifeBehavior(),
+                        BowAndArrowBehavior(),
+                        AxeBehavior()]
+        self.__figureImpls = [KingFigure(),
+                              QueenFigure(),
+                              TrollFigure(),
+                              KnightFigure()]
+
+    def __call__(self, weapon, character):
+        for wimpl in self.__weaponImpls:
+            for fimpl in self.__figureImpls:
+                if wimpl.behaviorCode == weapon and fimpl.figureCode == character:
+                    return fimpl() + " " +wimpl()
+            else:
+                return None
 
 
 def main():
-    king = King()
-    king.fight()
-    king.setWeapon(KnifeBehavior())
-    king.fight()
+    chracterCreator = CharacterCreator()
+    king = chracterCreator("SWORD", "KING")
+    print(king)
 
 
 if __name__ == '__main__':

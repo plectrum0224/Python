@@ -17,6 +17,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/OOP$MainFile.coverage" NAME="MainFile Coverage Results" MODIFIED="1457173727998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DesignPattern/CompoundPattern" />
     <SUITE FILE_PATH="coverage/OOP$agentClass.coverage" NAME="agentClass Coverage Results" MODIFIED="1454573969195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PropertyAgent" />
     <SUITE FILE_PATH="coverage/OOP$strategyPattern.coverage" NAME="strategyPattern Coverage Results" MODIFIED="1455975867574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DesignPattern" />
     <SUITE FILE_PATH="coverage/OOP$FacadePattern.coverage" NAME="FacadePattern Coverage Results" MODIFIED="1456662801191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DesignPattern" />
@@ -26,58 +27,31 @@
     <SUITE FILE_PATH="coverage/OOP$render1.coverage" NAME="render1 Coverage Results" MODIFIED="1456656925789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/pipbook-1.0/pipeg" />
     <SUITE FILE_PATH="coverage/OOP$TempletePattern.coverage" NAME="TempletePattern Coverage Results" MODIFIED="1456753912702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DesignPattern" />
     <SUITE FILE_PATH="coverage/OOP$test001__1_.coverage" NAME="test001 (1) Coverage Results" MODIFIED="1454490759349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Contactor" />
-    <SUITE FILE_PATH="coverage/OOP$StatusPattern.coverage" NAME="StatusPattern Coverage Results" MODIFIED="1456844872856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DesignPattern" />
+    <SUITE FILE_PATH="coverage/OOP$StatusPattern.coverage" NAME="StatusPattern Coverage Results" MODIFIED="1456923908375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DesignPattern" />
     <SUITE FILE_PATH="coverage/OOP$houseRentalClass.coverage" NAME="houseRentalClass Coverage Results" MODIFIED="1454570958689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PropertyAgent" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="OOP" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TempletePattern.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPattern/TempletePattern.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-              <folding>
-                <marker date="1456753912699" expanded="true" signature="1640:1658" placeholder="CREATE TABLE..Sales..." />
-                <marker date="1456753912699" expanded="true" signature="1640:1732" placeholder="CREATE TABLE..Sales..." />
-                <marker date="1456753912699" expanded="true" signature="1751:1775" placeholder="INSERT INTO Sales..." />
-                <marker date="1456753912699" expanded="true" signature="1751:1820" placeholder="INSERT INTO Sales..." />
-                <marker date="1456753912699" expanded="true" signature="1839:1909" placeholder="INSERT INTO Sales..." />
-                <marker date="1456753912699" expanded="true" signature="1928:2000" placeholder="INSERT INTO Sales..." />
-                <marker date="1456753912699" expanded="true" signature="2019:2094" placeholder="INSERT INTO Sales..." />
-                <marker date="1456753912699" expanded="true" signature="2113:2192" placeholder="INSERT INTO Sales..." />
-                <marker date="1456753912699" expanded="true" signature="2211:2284" placeholder="INSERT INTO Sales..." />
-                <marker date="1456753912699" expanded="true" signature="3127:3163" placeholder="SELECT * fro..Sales..." />
-                <marker date="1456753912699" expanded="true" signature="3133:3152" placeholder="select * fro..Sales..." />
-                <marker date="1456753912699" expanded="true" signature="3133:3163" placeholder="select * fro..Sales..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StatusPattern.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DesignPattern/StatusPattern.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3952569">
-              <caret line="158" column="23" selection-start-line="158" selection-start-column="23" selection-end-line="158" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -113,7 +87,6 @@
         <option value="$PROJECT_DIR$/Chapter7/case_study.py" />
         <option value="$PROJECT_DIR$/Chapter8/decorator.py" />
         <option value="$PROJECT_DIR$/Chapter8/client.py" />
-        <option value="$PROJECT_DIR$/operator_reload.py" />
         <option value="$PROJECT_DIR$/special_method/initMethod.py" />
         <option value="$PROJECT_DIR$/DesignPattern/Observer.py" />
         <option value="$PROJECT_DIR$/DesignPattern/index.html" />
@@ -126,6 +99,11 @@
         <option value="$PROJECT_DIR$/DesignPattern/FacadePattern.py" />
         <option value="$PROJECT_DIR$/DesignPattern/TempletePattern.py" />
         <option value="$PROJECT_DIR$/DesignPattern/StatusPattern.py" />
+        <option value="$PROJECT_DIR$/DesignPattern/CompoundPattern/MainFile.py" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/file.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/operator_reload.py" />
       </list>
     </option>
   </component>
@@ -147,6 +125,12 @@
             <id />
           </State>
           <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
             <id>Python</id>
           </State>
           <State>
@@ -155,7 +139,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>PyArgumentListInspection</id>
+            <id>SpellCheckingInspection</id>
           </State>
         </selected-state>
       </profile-state>
@@ -187,6 +171,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -205,30 +190,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/DesignPattern" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../JavaScript" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
   </component>
@@ -243,25 +213,7 @@
       <recent name="D:\Study_File\Python\OOP_code\Chapter7" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.StatusPattern">
-    <configuration default="false" name="CommandPattern" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DesignPattern" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="OOP" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DesignPattern/CommandPattern.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.MainFile">
     <configuration default="false" name="AdapterPattern" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -330,6 +282,24 @@
       <module name="OOP" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DesignPattern/StatusPattern.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MainFile" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DesignPattern/CompoundPattern" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="OOP" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DesignPattern/CompoundPattern/MainFile.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -547,23 +517,26 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.render1" />
-      <item index="1" class="java.lang.String" itemvalue="Python.CommandPattern" />
-      <item index="2" class="java.lang.String" itemvalue="Python.AdapterPattern" />
-      <item index="3" class="java.lang.String" itemvalue="Python.FacadePattern" />
-      <item index="4" class="java.lang.String" itemvalue="Python.TempletePattern" />
-      <item index="5" class="java.lang.String" itemvalue="Python.StatusPattern" />
+      <item index="1" class="java.lang.String" itemvalue="Python.AdapterPattern" />
+      <item index="2" class="java.lang.String" itemvalue="Python.FacadePattern" />
+      <item index="3" class="java.lang.String" itemvalue="Python.TempletePattern" />
+      <item index="4" class="java.lang.String" itemvalue="Python.StatusPattern" />
+      <item index="5" class="java.lang.String" itemvalue="Python.MainFile" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.StatusPattern" />
-        <item index="1" class="java.lang.String" itemvalue="Python.TempletePattern" />
-        <item index="2" class="java.lang.String" itemvalue="Python.FacadePattern" />
-        <item index="3" class="java.lang.String" itemvalue="Python.AdapterPattern" />
-        <item index="4" class="java.lang.String" itemvalue="Python.CommandPattern" />
+        <item index="0" class="java.lang.String" itemvalue="Python.MainFile" />
+        <item index="1" class="java.lang.String" itemvalue="Python.StatusPattern" />
+        <item index="2" class="java.lang.String" itemvalue="Python.TempletePattern" />
+        <item index="3" class="java.lang.String" itemvalue="Python.FacadePattern" />
+        <item index="4" class="java.lang.String" itemvalue="Python.AdapterPattern" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -586,17 +559,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="0" width="1918" height="1170" extended-state="1" />
-    <editor active="true" />
+    <frame x="1" y="0" width="1918" height="1170" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11194833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1189451" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32851636" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.34307256" sideWeight="0.50630915" order="6" side_tool="true" content_ui="tabs" x="806" y="718" width="785" height="302" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992464" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20404235" sideWeight="0.49791667" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33907428" sideWeight="0.49369085" order="5" side_tool="false" content_ui="tabs" x="279" y="678" width="905" height="502" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34553283" sideWeight="0.49369085" order="5" side_tool="false" content_ui="tabs" x="279" y="678" width="905" height="502" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497309" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32851636" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -633,34 +606,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test002.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test001.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Contactor/test001.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PropertyAgent/purchaseClass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PropertyAgent/apartmentClass.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -921,13 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/operator_reload.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5653495">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://Python/#D:/Git/Python/PycharmProjects/OOP/DesignPattern/render1.py">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1069,29 +1007,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DesignPattern/TempletePattern.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.8486647">
           <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-          <folding>
-            <marker date="1456753912699" expanded="true" signature="1640:1658" placeholder="CREATE TABLE..Sales..." />
-            <marker date="1456753912699" expanded="true" signature="1640:1732" placeholder="CREATE TABLE..Sales..." />
-            <marker date="1456753912699" expanded="true" signature="1751:1775" placeholder="INSERT INTO Sales..." />
-            <marker date="1456753912699" expanded="true" signature="1751:1820" placeholder="INSERT INTO Sales..." />
-            <marker date="1456753912699" expanded="true" signature="1839:1909" placeholder="INSERT INTO Sales..." />
-            <marker date="1456753912699" expanded="true" signature="1928:2000" placeholder="INSERT INTO Sales..." />
-            <marker date="1456753912699" expanded="true" signature="2019:2094" placeholder="INSERT INTO Sales..." />
-            <marker date="1456753912699" expanded="true" signature="2113:2192" placeholder="INSERT INTO Sales..." />
-            <marker date="1456753912699" expanded="true" signature="2211:2284" placeholder="INSERT INTO Sales..." />
-            <marker date="1456753912699" expanded="true" signature="3127:3163" placeholder="SELECT * fro..Sales..." />
-            <marker date="1456753912699" expanded="true" signature="3133:3152" placeholder="select * fro..Sales..." />
-            <marker date="1456753912699" expanded="true" signature="3133:3163" placeholder="select * fro..Sales..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPattern/CompoundPattern/MainFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6439169">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DesignPattern/StatusPattern.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3952569">
-          <caret line="158" column="23" selection-start-line="158" selection-start-column="23" selection-end-line="158" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.017804155">
+          <caret line="170" column="6" selection-start-line="170" selection-start-column="6" selection-end-line="170" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19512194">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6640316">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/operator_reload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23715416">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding />
         </state>
       </provider>
